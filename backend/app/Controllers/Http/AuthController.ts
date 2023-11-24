@@ -1,5 +1,5 @@
 import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
-import User from 'App/Models/User' // Assurez-vous que le chemin d'accès est correct
+import User from 'App/Models/User'
 
 export default class AuthController {
   public async register({ request, response }: HttpContextContract) {
