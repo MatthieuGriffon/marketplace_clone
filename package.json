@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "adonis-preset-ts": "^2.1.0",
     "concurrently": "^8.2.2"
   },
@@ -7,6 +8,10 @@
     "start": "concurrently \"cd backend && node ace serve --watch\" \"cd frontend && npm run dev\""
   },
   "dependencies": {
-    "@adonisjs/auth": "^8.2.3"
+    "@adonisjs/auth": "^8.2.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
